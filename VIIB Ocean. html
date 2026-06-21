@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VIIB Ocean Memories</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f5fbff;
+    color:#1b2a41;
+    scroll-behavior:smooth;
+}
+
+/* HERO */
+.hero{
+    min-height:100vh;
+    background:linear-gradient(rgba(0,40,80,.7),rgba(0,80,140,.7)),
+    url("22064.jpg");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+    padding:20px;
+}
+
+.hero-content h1{
+    font-size:3rem;
+    margin-bottom:15px;
+}
+
+.hero-content p{
+    max-width:700px;
+    margin:auto;
+    font-size:1.1rem;
+    line-height:1.8;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:12px 25px;
+    background:#00c2ff;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#0097c8;
+    transform:translateY(-3px);
+}
+
+/* SECTION */
+section{
+    padding:70px 8%;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:40px;
+    color:#005f99;
+    font-size:2rem;
+}
+
+/* INFO */
+.info-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    border-radius:20px;
+    padding:25px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card h3{
+    color:#0077b6;
+    margin-bottom:10px;
+}
+
+/* ABOUT */
+.about{
+    background:linear-gradient(135deg,#dff6ff,#f7fcff);
+    border-radius:25px;
+    padding:35px;
+    line-height:1.9;
+    text-align:center;
+}
+
+/* VISI MISI */
+.vm{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:25px;
+}
+
+.box{
+    background:white;
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.box ul{
+    padding-left:20px;
+    line-height:1.9;
+}
+
+/* HOBBY */
+.hobby{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+.hobby-card{
+    background:white;
+    padding:25px;
+    border-radius:20px;
+    width:250px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.hobby-card span{
+    font-size:3rem;
+}
+
+/* MOTTO */
+.motto{
+    text-align:center;
+    background:linear-gradient(135deg,#0077b6,#00b4d8);
+    color:white;
+    padding:50px 20px;
+    border-radius:25px;
+}
+
+.motto h2{
+    margin-bottom:15px;
+}
+
+/* FOOTER */
+footer{
+    background:#003049;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+/* MOBILE */
+@media(max-width:768px){
+
+.hero-content h1{
+    font-size:2.2rem;
+}
+
+.hero-content p{
+    font-size:1rem;
+}
+
+.section-title{
+    font-size:1.7rem;
+}
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<section class="hero">
+<div class="hero-content">
+<h1>🌊 VIIB Ocean Memories</h1>
+<p>
+Selamat datang di VIIB Ocean Memories, tempat di mana setiap siswa menjadi bagian
+dari perjalanan yang penuh cerita, persahabatan, dan kenangan indah.
+</p>
+
+<a href="#tentang" class="btn">Jelajahi Kelas</a>
+</div>
+</section>
+
+<!-- INFORMASI -->
+<section>
+<h2 class="section-title">👨‍🎓 Informasi Kelas</h2>
+
+<div class="info-grid">
+
+<div class="card">
+<h3>🧑‍🤝‍🧑 Jumlah Siswa</h3>
+<p><b>35 Siswa</b></p>
+</div>
+
+<div class="card">
+<h3>👨‍🏫 Wali Kelas</h3>
+<p><b>Pak Dheden</b></p>
+</div>
+
+<div class="card">
+<h3>📚 Kelas</h3>
+<p><b>VIIB</b></p>
+</div>
+
+<div class="card">
+<h3>🌊 Tema</h3>
+<p><b>Ocean Memories</b></p>
+</div>
+
+<div class="card">
+<h3>💙 Semangat</h3>
+<p><b>Kompak, Kreatif, dan Berprestasi</b></p>
+</div>
+
+</div>
+</section>
+
+<!-- TENTANG -->
+<section id="tentang">
+<h2 class="section-title">🐚 Tentang Kami</h2>
+
+<div class="about">
+<p>
+Kelas VIIB terdiri dari 35 siswa yang memiliki beragam karakter,
+bakat, dan cita-cita. Seperti luasnya lautan yang menyimpan banyak
+keindahan, setiap anggota kelas memiliki cerita dan keunikannya masing-masing.
+Bersama Pak Dheden sebagai wali kelas, kami belajar, tumbuh, dan menciptakan
+kenangan yang akan selalu dikenang.
+</p>
+</div>
+</section>
+
+<!-- VISI MISI -->
+<section>
+<h2 class="section-title">🎯 Visi & 🚀 Misi</h2>
+
+<div class="vm">
+
+<div class="box">
+<h3>🎯 Visi</h3>
+<p>
+"Menjadi kelas yang disiplin, kreatif, berprestasi, dan menjunjung tinggi kebersamaan."
+</p>
+</div>
+
+<div class="box">
+<h3>🚀 Misi</h3>
+<ul>
+<li>Belajar dengan sungguh-sungguh dan penuh tanggung jawab.</li>
+<li>Menjaga kekompakan serta saling menghargai.</li>
+<li>Mengembangkan bakat dan potensi setiap siswa.</li>
+<li>Menciptakan suasana kelas yang nyaman dan menyenangkan.</li>
+<li>Mengukir prestasi dan kenangan terbaik bersama.</li>
+</ul>
+</div>
+
+</div>
+</section>
+
+<!-- HOBBY -->
+<section>
+<h2 class="section-title">⚽🏀 Hobi Dominan Kelas</h2>
+
+<div class="hobby">
+
+<div class="hobby-card">
+<span>🏀</span>
+<h3>Basket</h3>
+<p>
+Salah satu olahraga favorit siswa VIIB yang melatih kerja sama tim,
+ketangkasan, dan sportivitas.
+</p>
+</div>
+
+<div class="hobby-card">
+<span>⚽</span>
+<h3>Sepak Bola</h3>
+<p>
+Olahraga yang paling sering dimainkan saat istirahat dan menjadi
+sarana mempererat persahabatan.
+</p>
+</div>
+
+</div>
+</section>
+
+<!-- MOTTO -->
+<section>
+<div class="motto">
+<h2>⭐ Motto Kelas</h2>
+<p>
+"Bersama Mengarungi Samudra Ilmu, Menggapai Impian Tanpa Batas."
+</p>
+</div>
+</section>
+
+<!-- KARTU INFORMASI -->
+<section>
+<h2 class="section-title">📋 Kartu Informasi</h2>
+
+<div class="info-grid">
+
+<div class="card">
+<h3>👨‍🏫 Wali Kelas</h3>
+<p>Pak Dheden</p>
+</div>
+
+<div class="card">
+<h3>👨‍🎓 Jumlah Siswa</h3>
+<p>35 Siswa</p>
+</div>
+
+<div class="card">
+<h3>🌊 Tema</h3>
+<p>Ocean Memories</p>
+</div>
+
+<div class="card">
+<h3>📚 Kelas</h3>
+<p>VIIB</p>
+</div>
+
+<div class="card">
+<h3>💙 Semangat</h3>
+<p>Kompak, Kreatif, dan Berprestasi</p>
+</div>
+
+</div>
+</section>
+
+<footer>
+<p>🌊 VIIB Ocean Memories © 2026 | Bersama Mengarungi Samudra Ilmu</p>
+</footer>
+
+</body>
+</html>
